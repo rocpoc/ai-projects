@@ -47,7 +47,7 @@ class AirCargoProblem(BasePlanningProblem):
         in the problem domain action schema and turns them into complete Action
         objects as defined in the aimacode.planning module. It is computationally
         expensive to call this method directly; however, it is called in the
-        constructor and the results cached in the `actions_list` property.
+        constructor and the results cached in the `actions_list` property. 
 
         Returns
         -------
