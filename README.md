@@ -2,10 +2,17 @@
 
 projects for [udacity's artificial intelligence nanodegree](https://www.udacity.com/course/ai-artificial-intelligence-nanodegree--nd898)
 
-1. [sudoku solver](/1_Sudoku)
+## [sudoku solver](/1_Sudoku)
+- Use constraint propagation and search to build an agent that reasons like a human would to efficiently solve any Sudoku puzzle
 
-1. [forward planning agent](/2_Classical_Planning)
+## [forward planning agent](/2_Classical_Planning)
 
-3. [game playing agent](/3_Adversarial_Search)
+- Build agents that can reason to achieve their goals using search and symbolic logic—like the NASA Mars rovers
 
-4. [part of speech tagger](/4_HMM_Tagger)
+## [game playing agent](/3_Adversarial_Search)
+
+- Extend classical search to adversarial domains, to build agents that make good decisions without any human intervention such as the DeepMind AlphaGo agent
+
+## [part of speech tagger](/4_HMM_Tagger)
+
+- Model real-world uncertainty through probability to perform pattern recognition
