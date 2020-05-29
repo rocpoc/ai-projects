@@ -24,22 +24,7 @@ class CustomPlayer(DataPlayer):
     """
     def my_moves(self,state, depth):
         player_id = 0
-
-        #score = len(state.liberties(state.locs[player_id]))-len(state.liberties(state.locs[player_id+1]))
-        #score=len(state.liberties(state.locs[player_id]))
-        #score=len(state.liberties(state.locs[player_id]))
-        #score=1-(state.ply_count/99)
-        #print("score ",score)
-        #score = self.calcManhattanDistance(state)
-        #score = len(state.liberties(state.locs[player_id]))**2-len(state.liberties(state.locs[player_id+1])) + self.calcManhattanDistance(state)
-        #move toward the other player, but stay near the center of the board
-        #score = self.calcDistFromCenter(state)+self.calcManhattanDistance(state)
-        #score = self.overlappingMoves(state)
-        
-        #current best:
         score = len(state.liberties(state.locs[0])) - len(state.liberties(state.locs[1])) + 3*self.movesNextMoves(state)-self.overlappingMoves(state)+self.calcManhattanDistance(state)
-        #score = 2*self.calcDistFromCenter(state)+self.calcManhattanDistance(state) + len(state.liberties(state.locs[0])) - len(state.liberties(state.locs[1]))
-
     #baseline
         #score = len(state.liberties(state.locs[player_id]))-len(state.liberties(state.locs[player_id+1]))
         return score
