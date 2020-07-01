@@ -1,6 +1,6 @@
 # 🄰🄸 🄿🅁🄾🄹🄴🄲🅃🅂
 
-#### these are all the projects I've completed for udacity's artificial intelligence nanodegree:
+#### welcome! these are all the projects I've completed for udacity's artificial intelligence nanodegree:
 
 ## [sudoku solver](/1_Sudoku)
 - use constraint propagation and search to build an agent that reasons like a human would to efficiently solve any Sudoku puzzle
