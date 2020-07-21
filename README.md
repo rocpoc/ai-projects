@@ -1,4 +1,4 @@
-# 🄰🄸 🄿🅁🄾🄹🄴🄲🅃🅂
+# 𝒜𝐼 𝒫𝓇𝑜𝒿𝑒𝒸𝓉𝓈
 
 #### welcome! these are all the projects I've completed for udacity's artificial intelligence nanodegree:
 
